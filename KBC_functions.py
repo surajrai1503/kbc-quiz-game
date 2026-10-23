@@ -19,7 +19,6 @@ def fifty_fifty(question):
     print(wrong,correct1)
 
 def audience_poll(question):
-
     max_poll=[32,34,46,46,41,39,45,35,56,51,47]
     rand_poll=random.choice(max_poll)
     remaining=100-rand_poll
